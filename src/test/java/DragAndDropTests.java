@@ -9,6 +9,6 @@ public class DragAndDropTests {
     public void draGAndDropTest() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
         $("#column-a").dragAndDropTo("#column-b");
-        $$(".column").get(0).should(text("A"));
+        $$(".column").get(0).should(text("B"));
     }
 }
